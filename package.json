@@ -1,0 +1,43 @@
+{
+  "name": "angular-webpack-starter",
+  "version": "1.0.0",
+  "description": "AngularJS (1), ES6, Webpack",
+  "main": "index.js",
+  "repository": "https://github.com/domingosantana/angular-webpack-starter.git",
+  "author": "Domingo Santana",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --progress --open",
+    "build": "webpack --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "clean-webpack-plugin": "^2.0.0",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "ng-annotate-loader": "^0.6.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "copy-webpack-plugin": "^5.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.7",
+    "angular-ui-router": "^1.0.22",
+    "jquery": "^3.2.1"
+  }
+}

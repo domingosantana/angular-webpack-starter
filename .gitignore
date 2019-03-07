@@ -1,0 +1,8 @@
+.idea
+.npmrc
+.tmp
+.vscode
+.DS_Store
+build
+node_modules
+public
